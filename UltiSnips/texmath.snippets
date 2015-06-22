@@ -1,0 +1,91 @@
+priority -50
+
+##############
+# MATH STUFF #
+##############
+
+
+snippet eq "Equation" b
+\begin{equation}
+	$0
+\end{equation}
+endsnippet
+
+snippet eqs "Equation without number" b
+\begin{equation*}
+	$0
+\end{equation*}
+endsnippet
+
+snippet align "Align" b
+\begin{align}
+	$0
+\end{align}
+endsnippet
+
+snippet aligns "Align without number" b
+\begin{align*}
+	$0
+\end{align*}
+endsnippet
+
+snippet pmatrix "Pmatrix" b
+\begin{pmatrix}
+	$0
+\end{pmatrix}
+endsnippet
+
+snippet cases "Cases" b
+\begin{cases}
+	$0
+\end{cases}
+endsnippet
+
+snippet proof "Proof" b
+\begin{proof}
+	$0
+\end{proof}
+endsnippet
+
+snippet theorem "Theorem" b
+\begin{theorem}
+	$0
+\end{theorem}
+endsnippet
+
+snippet proposition "Proposition" b
+\begin{proposition}
+	$0
+\end{proposition}
+endsnippet
+
+snippet lemma "Lemma" b
+\begin{lemma}
+	$0
+\end{lemma}
+endsnippet
+
+
+snippet frac "Fraction" w
+\frac{${1:${VISUAL:nom}}}{${2:denom}}
+endsnippet
+
+
+
+snippet lr( "left( right)" w
+\left( ${1:${VISUAL}} \right)
+endsnippet
+
+snippet lr| "left| right|" w
+\left| ${1:${VISUAL}} \right|
+endsnippet
+
+snippet lr{ "left\{ right\}" w
+\left\\{ ${1:${VISUAL}} \right\\}
+endsnippet
+
+snippet lr[ "left[ right]" w
+\left[ ${1:${VISUAL}} \right]
+endsnippet
+
+# vim:ft=snippets:
