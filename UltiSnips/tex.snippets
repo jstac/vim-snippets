@@ -2,6 +2,11 @@ priority -50
 
 extends texmath
 
+
+snippet vs "Vspace" b
+\vspace{0.5em}$0
+endsnippet
+
 snippet "b(egin)?" "begin{} / end{}" br
 \begin{${1:something}}
 	${0:${VISUAL}}
@@ -50,8 +55,6 @@ snippet fact "Fact" b
 	$0
 \end{fact}
 endsnippet
-
-
 
 snippet frame "Frame" b
 \begin{frame}
